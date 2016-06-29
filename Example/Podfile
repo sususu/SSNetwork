@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SSNetwork_Example' do
+  pod 'SSNetwork', :path => '../'
+
+  target 'SSNetwork_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
