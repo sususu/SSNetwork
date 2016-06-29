@@ -7,7 +7,7 @@
 //
 
 #import "SSRequestConfig.h"
-#import "AFNetworking.h"
+#import <AFNetworking/AFNetworking.h>
 
 #define ss_timeout 60
 NSString *SSRequestNetworkStatusChanged = @"request.network.status.changed";
