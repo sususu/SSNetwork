@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SSNetwork'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'a wrapper for AFNetworking, easy to use'
 
 # This description is used to generate tags and improve search results.
