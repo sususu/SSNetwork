@@ -8,4 +8,7 @@ target 'SSNetwork_Example' do
 
     pod 'FBSnapshotTestCase'
   end
+  
 end
+
+pod 'AFNetworking'

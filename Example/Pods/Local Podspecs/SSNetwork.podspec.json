@@ -1,22 +1,27 @@
 {
   "name": "SSNetwork",
   "version": "0.1.0",
-  "summary": "A short description of SSNetwork.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/SSNetwork",
+  "summary": "a wrapper for AFNetworking, easy to use",
+  "description": "long description, what should i write? long description, what should i write? long description, what should i write? long description, what should i write? long description, what should i write? long description, what should i write? long description, what should i write? long description, what should i write?\nlong enough?",
+  "homepage": "https://github.com/sususu/SSNetwork",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "sujiang": "sujiang@infzm.com"
+    "sujiang": "sujiangbest@163.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/SSNetwork.git",
+    "git": "https://github.com/sususu/SSNetwork.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
-  "source_files": "SSNetwork/Classes/**/*"
+  "source_files": "SSNetwork/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
 }
