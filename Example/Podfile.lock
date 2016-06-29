@@ -19,7 +19,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.1)
   - FBSnapshotTestCase/SwiftSupport (2.1.1):
     - FBSnapshotTestCase/Core
-  - SSNetwork (0.1.0):
+  - SSNetwork (0.1.2):
     - AFNetworking
 
 DEPENDENCIES:
@@ -34,8 +34,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   FBSnapshotTestCase: 432afd8d059ccef7f207225894840a03fbcf7474
-  SSNetwork: 98794941adac98231fcce14d3cdbae392b7faf53
+  SSNetwork: 0bfc1469a42832f011fa9d87dacf95a41eb3aad8
 
-PODFILE CHECKSUM: 225ad280b0874e5760385945d7aec527b50727c4
+PODFILE CHECKSUM: a0d9910fb73b01a2d4936afbc9ebcc2e8943e57e
 
 COCOAPODS: 1.0.1

@@ -215,7 +215,7 @@ static Class<SSResponseInterface> _responseClass = nil;
     }
     
     SSErrorCodeHanlder codeHanlder = [[SSErrorCodeManager shared] handlerForCode:response.code];
-    BOOL requestAgain;
+    BOOL requestAgain = NO;
     if (codeHanlder)
     {
         requestAgain = codeHanlder(response);

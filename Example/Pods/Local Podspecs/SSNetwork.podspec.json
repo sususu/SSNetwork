@@ -1,6 +1,6 @@
 {
   "name": "SSNetwork",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "a wrapper for AFNetworking, easy to use",
   "description": "long description, what should i write? long description, what should i write? long description, what should i write? long description, what should i write? long description, what should i write? long description, what should i write? long description, what should i write? long description, what should i write?\nlong enough?",
   "homepage": "https://github.com/sususu/SSNetwork",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/sususu/SSNetwork.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "7.0"
