@@ -18,21 +18,21 @@
 {
     // Override point for customization after application launch.
     
-//    [SSRequestConfig setApiBasePath:@"http://192.168.1.10:8088/"];
-//    [SSRequestConfig setContentType:@"application/json"];
-//    
-//    [[SSErrorCodeManager shared] setMsg:@"你大爷啊" forCode:0];
-//    [[SSErrorCodeManager shared] setHandler:^BOOL(SSResponse *response) {
-//        NSLog(@"返回之前处理一些东西啊...");
-//        return NO;
-//    } forCode:0];
-//    
-////    [SSRequest registerResponseClass:[MResponse class]];
-//    
-//    request = [SSRequest requestWithUrl:@"/api/channel/list"];
-//    [request sendWithCallback:^(SSResponse *response) {
-//        NSLog(@"hahaha:%@", response.msg);
-//    }];
+    [SSRequestConfig setApiBasePath:@"http://192.168.1.10:8088/"];
+    [SSRequestConfig setContentType:@"application/json"];
+    
+    [[SSErrorCodeManager shared] setMsg:@"你大爷啊" forCode:0];
+    [[SSErrorCodeManager shared] setHandler:^BOOL(SSResponse *response) {
+        NSLog(@"返回之前处理一些东西啊...");
+        return NO;
+    } forCode:0];
+    
+//    [SSRequest registerResponseClass:[MResponse class]];
+    
+    request = [SSRequest requestWithUrl:@"/api/channel/list"];
+    [request sendWithCallback:^(SSResponse *response) {
+        NSLog(@"hahaha:%@", response.msg);
+    }];
     
     return YES;
 }

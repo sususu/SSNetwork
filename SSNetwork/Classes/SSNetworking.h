@@ -6,7 +6,7 @@
 //  Copyright © 2016年 SS. All rights reserved.
 //
 
-#import "AFNetworking.h"
+#import <AFNetworking/AFNetworking.h>
 
 @interface SSNetworking : AFHTTPSessionManager
 

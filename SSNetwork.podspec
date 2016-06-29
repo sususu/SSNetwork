@@ -29,6 +29,8 @@ long enough?
   s.source           = { :git => 'https://github.com/sususu/SSNetwork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/sunima0318'
 
+  s.platform     = :ios, '7.0'
+  s.requires_arc = true
   s.ios.deployment_target = '7.0'
 
   s.source_files = 'SSNetwork/Classes/**/*'
